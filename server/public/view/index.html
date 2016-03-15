@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Management Application Server</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./vendors/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="./view/style.css" />
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="./vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/scripts/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="col-lg-12 title">
+          <h1 class="text-center">Project Management Application Server</h1>
+        </div>
+      </div>
+      <div class="row display">
+        <div class="col-lg-4 company-info">
+          <h2 class="text-center company-name"></h2>
+          <table class="table">
+            <thead>
+              <tr class="company-header">
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="front-end"></tr>
+              <tr class="client-side"></tr>
+              <tr class="server-side"></tr>
+            </tbody>
+          </table>
+          <button class="center-block btn assign" type="button">Assign Employees</button>
+        </div>
+        <div class="col-lg-7 col-lg-offset-1 employee-info">
+          <div class="employees">
+            <h2 class="text-center">Employees</h2>
+              <table class="table">
+                <thead>
+                  <tr class="employee-header"></tr>
+                </thead>
+                <tbody class="employee-body">
+                </tbody>
+              </table>
+            <button class="center-block btn add" type="button">Add Employee</button>
+          </div>
+          <div class="time"><h3 class="text-center sprint-time">Sprints Left:</h3></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

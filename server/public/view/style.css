@@ -1,0 +1,88 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #F6FFE0;
+}
+
+div.header {
+  background-color: #E2F0D6;
+  margin: 40px auto;
+  width: 800px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+}
+
+div.title {
+  padding-bottom: 10px;
+}
+
+div.display {
+  margin-bottom: 15px;
+}
+
+div.company-info {
+  background-color: #E2F0D6;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  margin-bottom: 15px;
+  /*position:absolute;*/
+  /*margin-right: 10px;*/
+}
+
+tr.company-header {
+  font-style: italic;
+}
+
+div.employee-info {
+  background-color: #E2F0D6;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  margin-bottom: 15px;
+  /*margin-left: 10px;*/
+}
+div.employees {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #000000;
+}
+tr.employee-header {
+  font-style: italic;
+}
+
+div.time {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background: #BDD684;
+  background-image: -webkit-linear-gradient(top, #BDD684, #95AB63);
+  background-image: -moz-linear-gradient(top, #BDD684, #95AB63);
+  background-image: -ms-linear-gradient(top, #BDD684, #95AB63);
+  background-image: -o-linear-gradient(top, #BDD684, #95AB63);
+  background-image: linear-gradient(to bottom, #BDD684, #95AB63);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background: #95AB63;
+  background-image: -webkit-linear-gradient(top, #95AB63, #10222B);
+  background-image: -moz-linear-gradient(top, #95AB63, #10222B);
+  background-image: -ms-linear-gradient(top, #95AB63, #10222B);
+  background-image: -o-linear-gradient(top, #95AB63, #10222B);
+  background-image: linear-gradient(to bottom, #95AB63, #10222B);
+  text-decoration: none;
+}
+.btn:focus {
+  outline: 0;
+  color: #000000;
+}

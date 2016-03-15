@@ -1,0 +1,19 @@
+{
+  "name": "project_management_server",
+  "version": "1.0.0",
+  "description": "Project Management Server Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Joette, Miles, Aaron and Matt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jquery": "^2.2.1",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "firstname" : [
+    "Charlie",
+    "Lucas",
+    "Mary",
+    "Stephanie",
+    "Carol",
+    "Louis",
+    "Kanye",
+    "Betsy",
+    "Robin",
+    "Aesop",
+    "Frankie",
+    "Bubba",
+    "Forrest"
+  ],
+
+  "lastname" : [
+    "Gump",
+    "C.K.",
+    "Fables",
+    "West",
+    "Hood",
+    "Chapelle",
+    "Skywalker",
+    "Vader",
+    "Davidson",
+    "Smith",
+    "Williams",
+    "Romano",
+    "Farnsworth"
+  ],
+
+  "skillset" : [
+    "Front End Magician",
+    "Client Side Inquisitor",
+    "Server Side Sorcerer"
+  ],
+
+  "companies" : [
+    "Acme",
+    "GloboChem",
+    "GloboGym",
+    "S-Mart",
+    "Chicken King",
+    "Chick-fil-burger",
+    "General Bills",
+    "CostMore",
+    "Jim's Club",
+    "Limited Securities",
+    "Guns R' Us",
+    "Orange",
+    "Bullzeye"
+  ]
+}
